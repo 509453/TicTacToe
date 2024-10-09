@@ -204,4 +204,3 @@ void clearBoard(char board[3][3]){ ///clears board by assigning all boxes to '-'
         }
     }
 } 
-# TicTacToe
