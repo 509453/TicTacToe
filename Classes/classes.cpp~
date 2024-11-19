@@ -1,0 +1,39 @@
+#include <iostream>
+#include <cstring>
+#include <vector>
+#include <media.h>
+
+using namespace.std
+
+
+
+
+
+
+int main(){
+
+  char input [50];
+  char add[] =  "ADD";
+  char search [] = "SEARCH";
+  char del [] = "DELETE";
+  char quit [] = "QUIT";
+  bool stillPlaying = true; 
+
+  int j; 
+  while (stillPlaying == true){
+
+    if (strcmp(input, add) ==0){
+    }
+    else if (strcmp(input, search)==0){
+
+    }else if (strcmp(input, del)==0){
+
+    }else if (strcmp(input, quit)==0){
+      stillPlaying = false; 
+
+    }
+
+  }
+  j++; 
+  return 0; 
+}
